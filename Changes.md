@@ -2,6 +2,24 @@
 # Changes
 
 #
+### **+05:30 06:52:30 PM 06-06-2025, Friday**
+
+  - Schematic
+    - Updated BoM.
+    - Assigned all MPNs.
+    - Added `Group by MPN-DNP` preset.
+  - PCB
+    - Imported all changes to the PCB.
+    - Cleaned up the Fab layers.
+    - Added CIRCUITSTATE logo and GitHub link to schematic.
+    - Applied teardrops.
+    - Added board stackup table and characteristics.
+    - DRC passes.
+  - Added KiExport configuration.
+  - Added Git scripts.
+  - Generated manufacturing files.
+
+#
 ### **+05:30 09:57:26 PM 05-06-2025, Thursday**
 
   - Schematic
