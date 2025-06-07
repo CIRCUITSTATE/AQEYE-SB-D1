@@ -1,0 +1,5 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"TP1","5V_LED_P","TestPoint-0.75mm",5.127500,22.822208,0.000000,bottom
+"TP2","5V_LED_M","TestPoint-0.75mm",3.627500,22.822208,0.000000,bottom
+"TP3","3V3_LED_P","TestPoint-0.75mm",5.127500,19.625152,0.000000,bottom
+"TP4","3V3_LED_M","TestPoint-0.75mm",3.627500,19.625152,0.000000,bottom

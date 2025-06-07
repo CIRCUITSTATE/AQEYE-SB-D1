@@ -2,6 +2,27 @@
 # Changes
 
 #
+### **+05:30 05:03:43 PM 07-06-2025, Saturday**
+
+  - Schematic
+    - Realized that the main board can not supply 5V when the USB is not connected.
+    - Added a `TPS61023` 5V boost converter to generate 5V from the 3.3V input.
+    - Removed the 5V load switch since the 5V output can not be controlled via the boost converter.
+    - The 5V converter enabled by default with a GPIO control.
+    - Added `LM66100DCKR` single-channel ideal diode to connect the VBUS to the 5V rail.
+    - Reset the annotations.
+    - Updated the BoM.
+  - PCB
+    - Imported all changes to the PCB.
+    - Placement and routing completed.
+    - DRC passes.
+    - Updated Fab layers.
+    - Updated KiExport configuration.
+      - New STEP and VRML options are added.
+  - Generated manufacturing files.
+  - No version change.
+
+#
 ### **+05:30 06:52:30 PM 06-06-2025, Friday**
 
   - Schematic

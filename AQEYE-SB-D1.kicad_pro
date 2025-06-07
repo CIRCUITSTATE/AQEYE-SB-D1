@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|160595000|68085000|c8b6ddb7-7df1-4f47-a9ec-aa9bf7214c69|f385e62f-4a49-484d-a694-03345551acda",
+          "Footprint native clearance."
+        ],
+        [
+          "clearance|160595000|68585000|f385e62f-4a49-484d-a694-03345551acda|7aa5279f-08b8-42dc-8387-f1daf695e5a0",
+          "Footprint native clearance."
+        ],
+        [
+          "clearance|162095000|68245000|e6573fc4-ae49-43a8-9218-502ef051d311|4a182480-9a71-4326-849b-51ea94cfbd59",
+          "Footprint native clearance."
+        ],
+        [
+          "clearance|162095000|68745000|4a36d819-b0bf-4353-b72b-0aa6ee0800e7|e6573fc4-ae49-43a8-9218-502ef051d311",
+          "Footprint native clearance."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -189,6 +206,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
         0.3,
         0.4,
         0.5,
@@ -580,7 +598,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "AQEYE-SB-D1.step",
       "svg": "",
       "vrml": ""
     },
@@ -691,7 +709,7 @@
             "group_by": false,
             "label": "Description",
             "name": "Description",
-            "show": true
+            "show": false
           }
         ],
         "filter_string": "",
@@ -793,7 +811,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
