@@ -2,6 +2,11 @@
 # Changes
 
 #
+### **+05:30 11:03:36 AM 15-06-2025, Sunday**
+
+  - Added License file.
+
+#
 ### **+05:30 10:56:55 AM 15-06-2025, Sunday**
 
   - Updated Readme.
