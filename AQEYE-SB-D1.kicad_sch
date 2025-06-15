@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "AQEYE-SB-D1")
-		(date "2025-06-08")
+		(date "2025-06-15")
 		(rev "0.1")
 		(company "CIRCUITSTATE Electronics LLP")
 		(comment 1 "Designed by: Vishnu Mohanan (@vishnumaiea, @vizmohanan)")
@@ -5404,6 +5404,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 166 88 1)
 		)
 		(uuid "205dc5bf-2202-4d49-b4d8-8988660a059b")
 	)
@@ -5959,7 +5960,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 234.315) (xy 243.84 234.315)
+			(xy 239.395 234.315) (xy 243.84 234.315)
 		)
 		(stroke
 			(width 0)
@@ -6884,6 +6885,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 100 132 1)
 		)
 		(uuid "c39954e9-dcfb-4606-955d-29b3964d8b0b")
 	)
@@ -9620,6 +9622,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 166 88 1)
 			)
 			(justify left bottom)
 		)
@@ -9641,6 +9644,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 166 88 1)
 			)
 			(justify left bottom)
 		)
@@ -9679,16 +9683,17 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 241.3 234.315 0)
+		(at 241.935 234.315 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 100 132 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "945df283-e2a9-46b0-9579-ea72ee66dd96")
 		(property "Netclass" "5V"
-			(at 241.1752 230.3857 0)
+			(at 241.8102 230.3857 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9704,6 +9709,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 166 88 1)
 			)
 			(justify left bottom)
 		)
@@ -9725,6 +9731,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 100 132 1)
 			)
 			(justify left bottom)
 		)
@@ -13647,7 +13654,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 238.76 234.315 90)
+		(at 239.395 234.315 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13655,7 +13662,7 @@
 		(dnp no)
 		(uuid "6c847ddd-903b-465b-bf50-f215474c3aa7")
 		(property "Reference" "#PWR030"
-			(at 242.57 234.315 0)
+			(at 243.205 234.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +13671,7 @@
 			)
 		)
 		(property "Value" "+5V_IN"
-			(at 236.0065 234.3411 90)
+			(at 236.6415 234.3411 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13673,7 +13680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 234.315 0)
+			(at 239.395 234.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13682,7 +13689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 234.315 0)
+			(at 239.395 234.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13691,7 +13698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 238.76 234.315 0)
+			(at 239.395 234.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)

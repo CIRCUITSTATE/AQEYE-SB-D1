@@ -2,6 +2,13 @@
 # Changes
 
 #
+### **+05:30 10:56:55 AM 15-06-2025, Sunday**
+
+  - Updated Readme.
+  - Added poster image.
+  - Generated PCB renders without the Asair sensors.
+
+#
 ### **+05:30 05:03:43 PM 07-06-2025, Saturday**
 
   - Schematic
