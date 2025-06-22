@@ -5705,6 +5705,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 140 255 206 1)
 		)
 		(uuid "425eb547-3794-40a5-b54e-f9851e420085")
 	)
@@ -9666,6 +9667,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 140 255 206 1)
 			)
 			(justify left bottom)
 		)
@@ -17593,7 +17595,7 @@
 		(dnp no)
 		(uuid "c32c050a-cdcf-406b-9e14-8a1eb255c17a")
 		(property "Reference" "R10"
-			(at 176.6939 239.274 0)
+			(at 177.3289 239.274 0)
 			(effects
 				(font
 					(size 0.8 0.8)
